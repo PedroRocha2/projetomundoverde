@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+
+
+*{
+    margin:0;
+    box-sizing:border-box;
+    text-decoration: none;
+    font-family: "lemon", serif;
+    
+}
+
+body{
+    background-color: white;
+    
+    
+}
+
+
+section,footer{
+    padding: 170px 0;
+
+}
+
+h2,h1{
+    font-size: 80px;
+    color:white;
+}
+
+p{
+    color: #a7d131;
+    font-size: 24px;
+    margin: 25px 0;
+    font-weight: 800;
+}
+
+.container{
+    max-width: 1700px;
+    margin: 0 auto;
+    padding: 0 4%;
+    
+}
+
+header {
+
+    background-position: center;
+    background-size: cover; 
+    background-attachment: fixed; 
+    height: 800px;   /* Altura desejada do cabeçalho */
+}
+
+
+
+nav{
+    display:flex;
+    align-items: center;
+    padding-top: 30px;
+    justify-content: center;
+    text-align: center;
+    padding:0 90px;
+    
+}
+
+
+
+a {
+    color: white;
+    margin: 0 20px;
+    text-transform: uppercase;
+    font-size: 18px;
+    display: block;
+    font-weight: 600;
+}
+
+
+ul{
+    display: flex;
+    align-items: center;
+    
+}
+/*fim cabecalho pesquisa*/
+
+
+/*botao*/
+.btn{
+   background-color:#32cd32; 
+   color:white;
+   padding: 15px 20px;
+   border-radius: 10px;
+   cursor: pointer;
+   display: inline-block;
+   transition: 0.1s;
+   justify-content: center;
+   margin: 11px;
+}
+
+
+
+/*comeco textos*/
+.ganhe-pontos .ganhe-pontos-text{
+    width: 60%;
+    padding: 0 2%;
+}
+
+.ganhe-pontos .ganhe-pontos-img { /*mudar imagem*/
+    width: 50%;
+    padding-right: 30px;
+    size: 30px;
+
+}
+
+.ganhe-pontos .container{
+    display: flex;
+    align-items: center;
+}
+
+.ganhe-pontos .ganhe-pontos-text h3{
+    font-size: 56px;
+    color: #32cd32;
+   
+    
+}
+
+.ganhe-pontos .ganhe-pontos-text p{  
+    margin: 5px 0 10px 0;
+    color: black;
+    font-family: ''; /*colocar fonte*/
+}
+
+.boas-praticas .boas-praticas-text{
+    width: 50%;
+    padding: 0 3%;
+}
+
+.boas-praticas .boas-praticas-img {
+    width: 50%; 
+    padding-right: 80px;
+    
+
+}
+
+.boas-praticas .container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    text-align: right;
+    
+    
+    
+}
+
+.boas-praticas .boas-praticas-text h3{
+    font-size: 54px;
+    color: #32cd32;
+    padding-left: 200px;
+    text-align: right;
+    
+}
+
+.boas-praticas .boas-praticas-text p {
+    margin: 5px 0 10px 0;
+    color: black;
+    font-family: ''; /*colocar fonte*/
+    text-align: right;
+}
+   
+
+   
+
+/*fim textos*/
+
+
+/*cards*/
+.container-card .card img {
+  height: 340px;
+  padding: 12px;
+  width: 350px;
+  border-radius: 10px;
+  
+}
+.card{
+    height: 450px;
+    margin: 40px;
+    box-shadow: 5px 5px 20px black;
+    overflow: hidden;
+}
+
+
+.container-card {
+    display: flex;
+    justify-content: center;
+    height: 85vh;
+    align-items: center;
+   
+
+}
+
+.time p{
+    font-size: 56px;
+    text-align: center;
+
+}
+/*fim cards*/
+
+.footer {
+    background-color: #32cd32;
+    padding: 90px;
+    text-align: center;
+    height: 250px;
+} 
+.links a {
+    color: #000;
+    font-size: 24px;
+    margin: 0 8px;
+   display:inline-block ;
+    
+}
+
+.footer i {
+    color:black;
+    font-size: 25px;
+    background-color: #9BE931;
+    padding: 10px;
+    margin: 3px;
+    border-radius: 10px;
+
+}
+
+/* Página sobre*/
+.sobre .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sobre .sobre-text h3{
+    font-size: 54px;
+    color: black;
+}
+
+.sobre .sobre-text p{
+ margin: 5px 0 10px 0;
+ font-family: ''; /*colocar fonte*/
+    
+}
+
+.sobre .container .sobre-img img{
+    width: 900px; 
+    height: auto;
+}
+   
+.servicos .container{
+    display: flex;
+    text-align: center;
+}
+.servicos .servicos-text h3{
+    font-size: 54px;
+    color: black;
+    text-align: center;
+}
+
+.servicos .servicos-text p{
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+.servicos .cards-items .nome-servicos {
+    color:#000;
+}
+
+.servicos .cards{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+
+.servicos .cards-items{
+    background-color:#c5f682;
+    width: 350px;
+    height: 350px;
+    padding: 20px;
+    border-radius: 14px;
+    margin: 20px;
+    flex-wrap: wrap;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.servicos .descricao{
+    font-size: 20px;
+  
+}
+
+.servicos .cards-items:hover {
+    background-color: #58BB43;
+}
