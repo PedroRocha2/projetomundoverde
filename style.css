@@ -25,6 +25,7 @@ section,footer{
 h2,h1{
     font-size: 80px;
     color:white;
+    text-align: center;
 }
 
 p{
@@ -46,7 +47,7 @@ header {
     background-position: center;
     background-size: cover; 
     background-attachment: fixed; 
-    height: 800px;   /* Altura desejada do cabeçalho */
+    height: 900px;   /* Altura desejada do cabeçalho */
 }
 
 
@@ -83,7 +84,7 @@ ul{
 
 /*botao*/
 .btn{
-   background-color:#32cd32; 
+   background-color:#004022; 
    color:white;
    padding: 15px 20px;
    border-radius: 10px;
@@ -93,7 +94,9 @@ ul{
    justify-content: center;
    margin: 11px;
 }
-
+.btn:hover {
+    background-color: #94f580;
+}
 
 
 /*comeco textos*/
@@ -181,7 +184,6 @@ ul{
 .card{
     height: 450px;
     margin: 40px;
-    box-shadow: 5px 5px 20px black;
     overflow: hidden;
 }
 
@@ -191,6 +193,8 @@ ul{
     justify-content: center;
     height: 85vh;
     align-items: center;
+    background-color: #d9efd1;
+    text-align: center;
    
 
 }
@@ -198,12 +202,13 @@ ul{
 .time p{
     font-size: 56px;
     text-align: center;
+    
 
 }
 /*fim cards*/
 
 .footer {
-    background-color: #32cd32;
+    background-color: #004022;
     padding: 90px;
     text-align: center;
     height: 250px;
@@ -219,11 +224,15 @@ ul{
 .footer i {
     color:black;
     font-size: 25px;
-    background-color: #9BE931;
+    background-color: #9fe870;
     padding: 10px;
     margin: 3px;
     border-radius: 10px;
 
+}
+
+.footer .container-footer p{
+    color: #9fe870
 }
 
 /* Página sobre*/
@@ -277,7 +286,7 @@ ul{
 }
 
 .servicos .cards-items{
-    background-color:#c5f682;
+    background-color:#9fe870;
     width: 350px;
     height: 350px;
     padding: 20px;
@@ -290,9 +299,24 @@ ul{
 
 .servicos .descricao{
     font-size: 20px;
+    color: aliceblue;
   
 }
 
-.servicos .cards-items:hover {
-    background-color: #58BB43;
+
+/* As ods*/
+.dados .ods-itens h3{
+    text-align: center;
+    margin: 40px;
+  
+}
+
+.dados .container img{
+    justify-content: center;
+    margin: 18px;
+    align-items: center;
+    padding: 20px;
+   
+    
+    
 }
