@@ -28,8 +28,9 @@ h2,h1{
     text-align: center;
 }
 
+
 p{
-    color: #a7d131;
+    color: #d1f076;
     font-size: 24px;
     margin: 25px 0;
     font-weight: 800;
@@ -119,7 +120,7 @@ ul{
 
 .ganhe-pontos .ganhe-pontos-text h3{
     font-size: 56px;
-    color: #32cd32;
+    color: #004022;
    
     
 }
@@ -154,7 +155,7 @@ ul{
 
 .boas-praticas .boas-praticas-text h3{
     font-size: 54px;
-    color: #32cd32;
+    color: #004022;
     padding-left: 200px;
     text-align: right;
     
@@ -178,7 +179,7 @@ ul{
   height: 340px;
   padding: 12px;
   width: 350px;
-  border-radius: 10px;
+  border-radius: 30px;
   
 }
 .card{
@@ -193,15 +194,21 @@ ul{
     justify-content: center;
     height: 85vh;
     align-items: center;
-    background-color: #d9efd1;
+    background-color:#d1f076;
     text-align: center;
    
 
 }
 
+
+#texto{
+    color: #004022;
+}
+
 .time p{
     font-size: 56px;
     text-align: center;
+    color: #004022;
     
 
 }
@@ -232,7 +239,7 @@ ul{
 }
 
 .footer .container-footer p{
-    color: #9fe870
+    color: #9fe870;
 }
 
 /* Página sobre*/
@@ -250,6 +257,7 @@ ul{
 .sobre .sobre-text p{
  margin: 5px 0 10px 0;
  font-family: ''; /*colocar fonte*/
+ color: #000;
     
 }
 
@@ -316,7 +324,69 @@ ul{
     margin: 18px;
     align-items: center;
     padding: 20px;
-   
-    
-    
 }
+
+/* Página de contato*/
+    .contato-info{
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .contato-info .lado-esquerdo{
+        width: 50%;
+        padding: 40px;
+        background-color: #9fe870;
+        border-radius: 14px;
+        margin-right: 50px;
+        height: fit-content;
+    }
+    .contato-info .lado-esquerdo div{
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+        
+    }
+    .contato-info .lado-esquerdo i{
+    font-size: 24px;
+    margin-right: 20px;
+    color: #004022;
+    }
+    .contato-info .lado-esquerdo i{
+        font-size: 24px;
+        margin-right: 15px;
+        color: #004022;
+    }
+
+    .contato-info .lado-esquerdo p{
+        font-size: 17px;
+        color: #004022;
+    }
+
+    .contato-info .lado-direito{
+        width: 50%;
+
+    }
+
+    .contato-info .lado-direito input{
+        display: block;
+        width: 100%;
+        margin-bottom: 10px;
+        height: 47px;
+        padding: 15px;
+        border-radius: 9px;
+        transition: 0.7s;
+        border: 1px solid #f1f1f1;
+        
+        font-weight: lighter;
+    }
+
+    .contato-info .lado-direito textarea{
+        border: 1px solid #f1f1f1;
+        color: #212121;
+        border-radius: 9px;
+        margin-bottom: 10px;
+        padding: 15px;
+        width: 100%;
+        resize: none;
+    }
