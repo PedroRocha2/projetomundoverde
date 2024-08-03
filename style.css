@@ -13,7 +13,6 @@
 body{
     background-color: white;
     
-    
 }
 
 
@@ -85,7 +84,7 @@ ul{
 
 /*botao*/
 .btn{
-   background-color:#004022; 
+   background-color:#885928; 
    color:white;
    padding: 15px 20px;
    border-radius: 10px;
@@ -106,7 +105,7 @@ ul{
     padding: 0 2%;
 }
 
-.ganhe-pontos .ganhe-pontos-img { /*mudar imagem*/
+.ganhe-pontos .ganhe-pontos-img { 
     width: 50%;
     padding-right: 30px;
     size: 30px;
@@ -120,15 +119,16 @@ ul{
 
 .ganhe-pontos .ganhe-pontos-text h3{
     font-size: 56px;
-    color: #004022;
+    color: #8fb54f;
    
     
 }
 
 .ganhe-pontos .ganhe-pontos-text p{  
     margin: 5px 0 10px 0;
-    color: black;
-    font-family: ''; /*colocar fonte*/
+    color:  #292a1c;
+    font-family: 'Comic'; /*colocar fonte*/
+    padding-top: 10px;
 }
 
 .boas-praticas .boas-praticas-text{
@@ -139,6 +139,7 @@ ul{
 .boas-praticas .boas-praticas-img {
     width: 50%; 
     padding-right: 80px;
+    background-color: #dbf2d3;
     
 
 }
@@ -151,11 +152,12 @@ ul{
     
     
     
+    
 }
 
 .boas-praticas .boas-praticas-text h3{
     font-size: 54px;
-    color: #004022;
+    color: #8fb54f;
     padding-left: 200px;
     text-align: right;
     
@@ -163,9 +165,10 @@ ul{
 
 .boas-praticas .boas-praticas-text p {
     margin: 5px 0 10px 0;
-    color: black;
-    font-family: ''; /*colocar fonte*/
+    color: #292a1c;
+    font-family: 'Comic'; /*colocar fonte*/
     text-align: right;
+    padding-top: 10px;
 }
    
 
@@ -180,6 +183,7 @@ ul{
   padding: 12px;
   width: 350px;
   border-radius: 30px;
+  background-color: #dbf2d3;
   
 }
 .card{
@@ -194,7 +198,7 @@ ul{
     justify-content: center;
     height: 85vh;
     align-items: center;
-    background-color:#d1f076;
+    background-color:white;
     text-align: center;
    
 
@@ -202,13 +206,14 @@ ul{
 
 
 #texto{
-    color: #004022;
+    color: #292a1c;
 }
 
 .time p{
     font-size: 56px;
     text-align: center;
-    color: #004022;
+    color: #885928;
+    font-family: 'Comic';
     
 
 }
@@ -240,6 +245,7 @@ ul{
 
 .footer .container-footer p{
     color: #9fe870;
+    font-family: 'Comic';
 }
 
 /* Página sobre*/
@@ -251,19 +257,21 @@ ul{
 
 .sobre .sobre-text h3{
     font-size: 54px;
-    color: black;
+    color: #8fb54f;
+   
 }
 
 .sobre .sobre-text p{
- margin: 5px 0 10px 0;
- font-family: ''; /*colocar fonte*/
- color: #000;
+ margin: 5px 0 10px 9;
+ color: #292a1c;
+ font-family: 'Comic';
     
 }
 
 .sobre .container .sobre-img img{
     width: 900px; 
     height: auto;
+    padding-left: 90px;
 }
    
 .servicos .container{
@@ -272,18 +280,19 @@ ul{
 }
 .servicos .servicos-text h3{
     font-size: 54px;
-    color: black;
+    color: #8fb54f;
     text-align: center;
 }
 
 .servicos .servicos-text p{
     font-size: 20px;
     text-align: center;
-    
+    color:black;
+    font-family: 'Comic';
 }
 
 .servicos .cards-items .nome-servicos {
-    color:#000;
+    color:#8fb54f;
 }
 
 .servicos .cards{
@@ -294,7 +303,7 @@ ul{
 }
 
 .servicos .cards-items{
-    background-color:#9fe870;
+    background-color:#dbf2d3;
     width: 350px;
     height: 350px;
     padding: 20px;
@@ -306,8 +315,9 @@ ul{
 }
 
 .servicos .descricao{
-    font-size: 20px;
-    color: aliceblue;
+    font-size: 18px;
+    color: #885928;
+    font-family: 'Comic'
   
 }
 
@@ -315,16 +325,20 @@ ul{
 /* As ods*/
 .dados .ods-itens h3{
     text-align: center;
-    margin: 40px;
-  
+    margin: 100px;
+    font-size: 45px;
+    color: #8fb54f;
+    
 }
 
-.dados .container img{
-    justify-content: center;
-    margin: 18px;
-    align-items: center;
-    padding: 20px;
+.dados .container img{           
+    justify-content: center; 
+    flex-wrap: wrap; 
+    padding-left: 200px;
+    box-sizing: border-box;
 }
+
+
 
 /* Página de contato*/
     .contato-info{
@@ -355,12 +369,13 @@ ul{
     .contato-info .lado-esquerdo i{
         font-size: 24px;
         margin-right: 15px;
-        color: #004022;
+        color: #885928;
     }
 
     .contato-info .lado-esquerdo p{
         font-size: 17px;
-        color: #004022;
+        color: #885928;
+         font-family: 'Comic'
     }
 
     .contato-info .lado-direito{
